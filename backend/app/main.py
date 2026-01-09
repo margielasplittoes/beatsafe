@@ -5,10 +5,10 @@ from app.routes import beats
 
 models.Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title ="Beatsafe API")
+app = FastAPI(title="Beatsafe API")
 
 app.include_router(beats.router)
 
 @app.get("/")
 def root():
-    return{"status": "Beatsafe backend running"}
+    return {"status": "Beatsafe backend running"}
