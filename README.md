@@ -1,6 +1,6 @@
 ## BeatSafe
 
-An application which allows users to upload their own samples, tag samples, share beats/sample packs, and dwonload said packs or beats.
+An application which allows users to upload their own samples, tag samples, share beats/sample packs, and download  packs or beats.
 
 ## Tech Stack
 - Frontend: React, Tailwind
